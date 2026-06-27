@@ -6,11 +6,8 @@ A modern, responsive website built for **ALFMATT Mobile Mechanical Services**. T
 
 ## Live Demo
 
-(Add your Netlify or Vercel link here after deployment)
+(https://alfmatt.netlify.app/)
 
-Example:
-
-https://alfmattmobilemechanical.netlify.app
 
 ---
 
@@ -156,7 +153,7 @@ Users can choose their preferred booking method.
 Developed by **Tichaona**
 
 GitHub:
-https://github.com/YOUR_USERNAME
+https://github.com/tichaonaclapperton
 
 ---
 
