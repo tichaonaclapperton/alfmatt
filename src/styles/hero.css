@@ -1,0 +1,75 @@
+.hero{
+    height: 100vh;
+    background-image: url('/images/herobg.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay{
+    position: absolute;
+    inset: 0;
+    background: rgb(0,0,0,.65);
+}
+.hero-content{
+    position: relative;
+    z-index: 2;
+
+    text-align: center;
+    color: white;
+    max-width: 800px;
+    padding: 20px;
+}
+
+
+.badge{
+    display: inline-block;
+    padding: 10px 20px;
+    background: orange;
+    border-radius: 30px;
+    margin: 20px;
+}
+.btn{
+    text-decoration: none;
+    padding: 14px 25px;
+    border-radius: 6px;
+}
+.btn-primary{
+    background: orange;
+    color: white;
+}
+.btn-secondary{
+    background: orange;
+    color: white;
+}
+.hero-content h1 {
+	font-size: 2rem;
+}
+
+
+.hero p{
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+}
+
+.hero-buttons {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+
+@media (min-width: 768px) {
+	.hero-content h1 {
+		font-size: 3rem;
+	}
+
+	.hero-buttons {
+		flex-direction: row;
+		justify-content: center;
+	}
+}

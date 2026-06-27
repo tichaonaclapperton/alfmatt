@@ -1,0 +1,142 @@
+/* Reset */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Root Variables */
+
+:root {
+	--primary: orange;
+	--primary-dark: #ea580c;
+
+	--dark: #111827;
+	--light: #f8fafc;
+
+	--text: #333333;
+	--text-light: #666666;
+
+	--white: #ffffff;
+
+	--shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+
+	--transition: 0.3s ease;
+}
+
+/* Body */
+
+body {
+	font-family: "Poppins", sans-serif;
+	color: #222;
+	line-height: 1.6;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+}
+
+/* Images */
+
+img {
+	max-width: 100%;
+	display: block;
+	height: auto;
+}
+
+/* Links */
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* Lists */
+
+ul {
+	list-style: none;
+}
+
+/* Container */
+
+.container {
+	width: 90%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+/* Buttons */
+
+.btn {
+	display: inline-block;
+	padding: 12px 24px;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: var(--transition);
+	border: none;
+}
+
+.btn-primary {
+	background: var(--primary);
+	color: white;
+}
+
+.btn-primary:hover {
+	background: var(--primary-dark);
+}
+.btn-secondary:hover {
+	background: var(--primary-dark);
+}
+
+.btn-outline {
+	border: 2px solid white;
+	color: white;
+}
+
+.btn-outline:hover {
+	background: rgba(255, 255, 255, 0.1);
+}
+html {
+	scroll-behavior: smooth;
+}
+
+/* Section Titles */
+
+.section-title {
+	text-align: center;
+	font-size: 2.5rem;
+	margin-bottom: 15px;
+}
+
+.section-subtitle {
+	text-align: center;
+	color: var(--text-light);
+	margin-bottom: 50px;
+}
+
+/* Cards */
+
+.card {
+	background: white;
+	border-radius: 10px;
+	box-shadow: var(--shadow);
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+	.section-title {
+		font-size: 2rem;
+	}
+
+	.container {
+		width: 95%;
+	}
+}

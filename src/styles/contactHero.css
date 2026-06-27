@@ -1,0 +1,66 @@
+.contact-hero {
+    height: 50vh;
+    background-image: url("/images/herobg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+    position: relative;
+  }
+  
+  .contact-overlay {
+    position: absolute;
+    inset: 0;
+  
+    background: rgba(0, 0, 0, 0.65);
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    text-align: center;
+    color: white;
+    padding: 20px;
+  }
+  
+  .contact-overlay h1 {
+    font-size: 3.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .contact-overlay p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    line-height: 1.6;
+  }
+  
+  /* Tablet */
+  @media (max-width: 768px) {
+    .contact-hero {
+      height: 40vh;
+    }
+  
+    .contact-overlay h1 {
+      font-size: 2.5rem;
+    }
+  
+    .contact-overlay p {
+      font-size: 1rem;
+    }
+  }
+  
+  /* Mobile */
+  @media (max-width: 480px) {
+    .contact-hero {
+      height: 35vh;
+    }
+  
+    .contact-overlay h1 {
+      font-size: 2rem;
+    }
+  
+    .contact-overlay p {
+      font-size: 0.95rem;
+    }
+  }

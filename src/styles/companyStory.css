@@ -1,0 +1,28 @@
+.company-story {
+    padding: 80px 20px;
+  }
+  
+  .story-container {
+    max-width: 1200px;
+    margin: auto;
+  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+  }
+  
+  .story-image img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .story-content h2 {
+    margin-bottom: 20px;
+    color: #ff6b00;
+  }
+  
+  .story-content p {
+    margin-bottom: 15px;
+    line-height: 1.8;
+  }

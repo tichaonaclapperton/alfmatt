@@ -1,0 +1,29 @@
+.services-hero {
+    height: 50vh;
+  
+    background-image: url("/images/herobg.jpg");
+    background-size: cover;
+    background-position: center;
+  
+    position: relative;
+  }
+  
+  .services-overlay {
+    position: absolute;
+    inset: 0;
+  
+    background: rgba(0,0,0,0.6);
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    text-align: center;
+    color: white;
+  }
+  
+  .services-overlay h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+  }
