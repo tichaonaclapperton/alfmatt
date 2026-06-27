@@ -1,16 +1,165 @@
-# React + Vite
+# ALFMATT Mobile Mechanical Services Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive website built for **ALFMATT Mobile Mechanical Services**. The website allows customers to learn about the company's services, view testimonials, and book appointments through EmailJS or WhatsApp.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live Demo
 
-## React Compiler
+(Add your Netlify or Vercel link here after deployment)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Example:
 
-## Expanding the ESLint configuration
+https://alfmattmobilemechanical.netlify.app
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Features
+
+* Responsive design (Mobile First)
+* Modern navigation with mobile menu
+* Hero section
+* Why Choose Us section
+* Services section
+* Customer testimonials
+* Team section
+* Gallery
+* Contact page
+* Appointment booking form
+* EmailJS integration
+* WhatsApp booking
+* Google Fonts (Montserrat & Poppins)
+* Lucide React icons
+* Clean and reusable component structure
+
+---
+
+## Built With
+
+* React
+* Vite
+* React Router
+* CSS3
+* EmailJS
+* Lucide React
+
+---
+
+## Project Structure
+
+```text
+src/
+│
+├── components/
+│   ├── Navbar.jsx
+│   ├── Hero.jsx
+│   ├── Features.jsx
+│   ├── Services.jsx
+│   ├── Gallery.jsx
+│   ├── Testimonials.jsx
+│   ├── Team.jsx
+│   ├── ContactHero.jsx
+│   ├── ContactForm.jsx
+│   └── Footer.jsx
+│
+├── pages/
+│   ├── Home.jsx
+│   ├── About.jsx
+│   ├── ServicePage.jsx
+│   └── Contact.jsx
+│
+├── styles/
+│
+├── router.jsx
+├── main.jsx
+└── ...
+```
+
+---
+
+## Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/alfmatt-mobile-mechanical.git
+```
+
+Navigate into the project
+
+```bash
+cd alfmatt-mobile-mechanical
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the development server
+
+```bash
+npm run dev
+```
+
+Open your browser
+
+```
+http://localhost:5173
+```
+
+---
+
+## Production Build
+
+Build the application
+
+```bash
+npm run build
+```
+
+Preview the production build
+
+```bash
+npm run preview
+```
+
+---
+
+## Contact Form
+
+The booking form supports two methods:
+
+* EmailJS
+* WhatsApp
+
+Users can choose their preferred booking method.
+
+---
+
+## Future Improvements
+
+* Backend appointment management
+* Admin dashboard
+* Online payments
+* Customer login portal
+* Service history
+* Google Maps integration
+* Booking availability calendar
+* SMS notifications
+
+---
+
+## Author
+
+Developed by **Tichaona**
+
+GitHub:
+https://github.com/YOUR_USERNAME
+
+---
+
+## License
+
+This project is for educational and portfolio purposes unless otherwise agreed with the client.
