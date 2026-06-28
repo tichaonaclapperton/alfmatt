@@ -14,7 +14,7 @@ export default function CTA() {
 						Book Appointment
 					</a>
 
-					<a href="tel:+27123456789" className="btn-secondary">
+					<a href="tel:+27 81 211 9738" className="btn-secondary">
 						Call Now
 					</a>
 				</div>
