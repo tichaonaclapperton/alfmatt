@@ -16,7 +16,7 @@ export default function CompanyStory() {
           <h2>Our Story</h2>
 
           <p>
-            Since 1995, Alfmatt mobile Mechanics has provided professional
+            Since 2013, Alfmatt mobile Mechanics has provided professional
             vehicle repairs and maintenance services.
           </p>
 

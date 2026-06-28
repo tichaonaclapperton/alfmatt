@@ -6,7 +6,7 @@ export default function Hero() {
 		<section className="hero">
 			<div className="overlay"></div>
 			<div className="hero-content">
-				<span className="badge"> Trusted since 1999</span>
+				<span className="badge"> Trusted since 2013</span>
 				<h1> Expert Mechanical Services</h1>
 				<p>Quality repairs,honest pricing and friendly service you can trust</p>
 
