@@ -47,12 +47,14 @@ export default function Footer() {
 
           <p>
             <Mail size={16} />
-            alfmattmobilservice@mail
+            alfmattmobileservice@mail.com
           </p>
 
           <p>
             <MapPin size={16} />
+            3 puarrow court Delft
             Cape Town, South Africa
+            7100
           </p>
         </div>
 
