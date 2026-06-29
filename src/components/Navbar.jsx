@@ -12,7 +12,7 @@ export default function Navbar() {
 				{/* Logo */}
 				<div className="logo">
 					<img src="/images/logo.png" alt="Company Logo" />
-					<h2>ALFMATT MOBILE MECHANICAL</h2>
+					
 				</div>
 
 				{/* Navigation Links */}

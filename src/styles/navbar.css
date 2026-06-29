@@ -1,7 +1,7 @@
 .navbar {
 	background: #0f172a;
 	color: white;
-	padding: 15px 0;
+	padding: 2px 0;
 	position: sticky;
 	top: 0;
 	z-index: 1000;
@@ -16,28 +16,16 @@
 	justify-content: space-between;
 }
 
-.logo {
-	display: flex;
-	align-items: center;
-	gap: 12px;
-}
+
 
 .logo img {
-	width: 55px;
-	height: 55px;
-	object-fit: contain;
-	filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.7));
+	width: 250px;
+	height: 60px;
+	
+	
 }
 
-/* .logo h2 {
-	font-size: 1.1rem;
-	color: orangered;
-} */
-/* .logo h2 {
-	font-family: "Montserrat", sans-serif;
-	font-size: 1.5rem;
-	font-weight: 700;
-} */
+
 
 .nav-links {
 	display: flex;
