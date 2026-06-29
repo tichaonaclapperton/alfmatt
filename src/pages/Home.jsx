@@ -16,6 +16,20 @@ export default function Home() {
 					name="description"
 					content="Professional mobile mechanic in Cape Town. Engine repairs, brake repairs, diagnostics, suspension repairs, gearbox repairs and roadside assistance."
 				/>
+				<meta property="og:type" content="website" />
+				<meta property="og:title" content="AFFMATT Mobile Mechanical Repairs" />
+				<meta
+					property="og:description"
+					content="Professional mobile mechanic in Cape Town. Reliable vehicle repairs wherever you are."
+				/>
+				<meta
+					property="og:image"
+					content="https://affmattmobilemechanical.co.za/og-banner.png"
+				/>
+				<meta
+					property="og:url"
+					content="https://affmattmobilemechanical.co.za"
+				/>
 			</Helmet>
 			<Hero />
 			<Service />
