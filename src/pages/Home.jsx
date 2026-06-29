@@ -24,7 +24,7 @@ export default function Home() {
 				/>
 				<meta
 					property="og:image"
-					content="https://affmattmobilemechanical.co.za/og-banner.png"
+					content="https://affmattmobilemechanical.co.za/og-image.png"
 				/>
 				<meta
 					property="og:url"
