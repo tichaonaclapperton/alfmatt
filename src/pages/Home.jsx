@@ -10,17 +10,19 @@ export default function Home() {
 	return (
 		<>
 			<Helmet>
-				<title>AFFMATT Mobile Mechanical | Mobile Mechanic in Cape Town</title>
+				<title>
+					AFFMATT Mobile Mechanical Repairs | Mobile Mechanic Cape Town
+				</title>
 
 				<meta
 					name="description"
-					content="Professional mobile mechanic in Cape Town. Engine repairs, brake repairs, diagnostics, suspension repairs, gearbox repairs and roadside assistance."
+					content="Mobile mechanic in Cape Town offering engine repairs, brake repairs, diagnostics, servicing and roadside assistance."
 				/>
 				<meta property="og:type" content="website" />
 				<meta property="og:title" content="AFFMATT Mobile Mechanical Repairs" />
 				<meta
 					property="og:description"
-					content="Professional mobile mechanic in Cape Town. Reliable vehicle repairs wherever you are."
+					content="Trusted mobile mechanic in Cape Town for vehicle repairs, servicing and roadside assistance."
 				/>
 				<meta
 					property="og:image"
@@ -29,6 +31,10 @@ export default function Home() {
 				<meta
 					property="og:url"
 					content="https://affmattmobilemechanical.co.za"
+				/>
+				<meta
+					name="twitter:description"
+					content="Trusted mobile mechanic in Cape Town for vehicle repairs, servicing and roadside assistance."
 				/>
 			</Helmet>
 			<Hero />
